@@ -91,7 +91,6 @@ function createSettingsWindow() {
 
 app.on('ready', () => {
   createOverlayWindow();
-  createSettingsWindow();
 });
 
 app.on('window-all-closed', () => app.quit());

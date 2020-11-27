@@ -30,13 +30,18 @@
       height: 100%;
     }
 
-    .item-slot.warning img {
-      filter: brightness(120%) sepia(105%) hue-rotate(0deg) saturate(1000%) contrast(1) drop-shadow(0 0 3px #666);
+    .item-slot.warning span {
+      filter: brightness(120%) sepia(105%) hue-rotate(0deg) saturate(1000%) contrast(1);
       opacity: 1;
     }
 
-    .item-slot.danger img {
-      filter: brightness(30%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(1.5) drop-shadow(0 0 3px #666);
+    .item-slot.danger span {
+      filter: brightness(30%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(1.5);
+      opacity: 1;
+    }
+
+    .item-slot.grey img {
+      filter: brightness(10000%) saturate(0%) contrast(0) !important;
       opacity: 1;
     }
 
@@ -69,6 +74,46 @@
     .options i:hover {
       color: white;
       cursor: pointer;
+    }
+
+    #amulet img {
+      filter: brightness(60%) sepia(100%) hue-rotate(-150deg) saturate(2000%) contrast(1.5);
+      opacity: 1;
+    }
+
+    #ring img {
+      filter: brightness(40%) sepia(100%) hue-rotate(-0deg) saturate(2000%) contrast(1.5);
+      opacity: 1;
+    }
+
+    #helmet img {
+      filter: brightness(50%) sepia(100%) hue-rotate(10deg) saturate(2000%) contrast(1.5);
+      opacity: 1;
+    }
+
+    #bodyArmour img {
+      filter: brightness(75%) sepia(100%) hue-rotate(-50deg) saturate(5000%) contrast(0.8);
+      opacity: 1;
+    }
+
+    #glove img {
+      filter: brightness(50%) sepia(100%) hue-rotate(-200deg) saturate(2000%) contrast(1.5);
+      opacity: 1;
+    }
+
+    #belt img {
+      filter: brightness(37%) sepia(100%) hue-rotate(-153deg) saturate(2000%) contrast(1.5);
+      opacity: 1;
+    }
+
+    #boot img {
+      filter: brightness(50%) sepia(100%) hue-rotate(-250deg) saturate(2000%) contrast(1.5);
+      opacity: 1;
+    }
+
+    #hand img {
+      filter: brightness(30%) sepia(100%) hue-rotate(200deg) saturate(1000%) contrast(1.5);
+      opacity: 1;
     }
   </style>
   <script src="../services/chaos-recipe.js"></script>

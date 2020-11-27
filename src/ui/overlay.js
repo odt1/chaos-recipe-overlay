@@ -14,11 +14,15 @@ const refreshChaosRecipe = async () => {
 
     slotElement.classList.remove('danger');
     slotElement.classList.remove('warning');
+    slotElement.classList.add('grey');
+
 
     if (isDanger) {
       slotElement.classList.add('danger');
+      slotElement.classList.remove('grey');
     } else if (isWarning) {
       slotElement.classList.add('warning');
+      slotElement.classList.remove('grey');
     }
 
     valueElement.textContent = totalCount;

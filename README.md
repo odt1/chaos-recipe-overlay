@@ -1,5 +1,7 @@
 # Chaos recipe overlay
 
+UI/UX improved mod
+
 ![image](https://user-images.githubusercontent.com/4255460/67449569-999e0a80-f5e8-11e9-9f8e-b09063c960e7.png)
 
 ## Setup ⚙️
