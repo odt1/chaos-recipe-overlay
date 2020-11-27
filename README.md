@@ -2,7 +2,10 @@
 
 UI/UX improved mod
 
-![image](https://user-images.githubusercontent.com/4255460/67449569-999e0a80-f5e8-11e9-9f8e-b09063c960e7.png)
+![image](https://user-images.githubusercontent.com/33424002/100416309-3013e980-308f-11eb-90a8-632b4b3faae5.png)
+
+![image](https://user-images.githubusercontent.com/33424002/100416314-32764380-308f-11eb-90d3-b58792288c46.png)
+
 
 ## Setup ⚙️
 
